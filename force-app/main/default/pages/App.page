@@ -15,7 +15,7 @@
     </apex:outputPanel>
 
     <apex:outputPanel layout="none" rendered="{!$CurrentPage.parameters.local == '1'}">
-        <script src="https://localhost:8080/vendors.js" ></script>
-        <script src="https://localhost:8080/app.js" ></script>
+        <script src="https://localhost:3000/vendors.js" ></script>
+        <script src="https://localhost:3000/app.js" ></script>
     </apex:outputPanel>
 </apex:page>

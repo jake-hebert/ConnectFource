@@ -1,2 +1,70 @@
 @import "ant-theme-vars.less";
 
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+button.square {
+    font-size: 100%;
+    font-family: inherit;
+    border:0;
+    background: #fff;
+    /*border: 1px solid #999;*/
+    float: left;
+    font-weight: bold;
+    line-height: 34px;
+    height: 50px;
+    /*margin-right: -1px;
+    margin-top: -1px;*/
+    padding: 0;
+    text-align: center;
+    width: 50px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin: 30px;
+    width: 250px;
+    height: 600px;
+}  
+
+.title {
+    font-weight: bold;
+    margin: 25px;
+}
+
+.chatWindow {
+    border: solid black 3px;
+    height: 75%;
+}
+
+.game-board {
+    margin-top: 30px;
+}

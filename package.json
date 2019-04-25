@@ -13,7 +13,7 @@
   "config": {
     "resource": "app",
     "package_path": "./force-app/main/default",
-    "port": 8080
+    "port": 3000
   },
   "scripts": {
     "start": "npm run setup-ts-webpack -- webpack-dev-server --config config/webpack.config.ts --hot --https",
